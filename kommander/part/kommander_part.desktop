@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=KommanderPart
+Name[ca]=Part del Kommander
+Name[de]=Kommander-Komponente
+Name[et]=Kommanderi komponent
+Name[nds]=Kommander-Komponent
+Name[nl]=Kommander-component
+Name[pl]=Moduł Kommandera
+Name[ru]=Компонент Kommander
+Name[sv]=Kommander-delprogram
+Name[zh_TW]=Kommander 部件
+MimeType=application/x-kommander;
+ServiceTypes=KParts/ReadOnlyPart
+X-KDE-Library=libkommander_part
+Type=Service
