@@ -1,1 +1,0 @@
-SUBDIRS=current old tutorial
