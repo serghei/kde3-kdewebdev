@@ -21,6 +21,7 @@
 #include <libxslt/xsltutils.h>
 
 #ifdef HAVE_READLINE
+#include <iostream>
 #include <readline/readline.h>
 #ifdef HAVE_HISTORY
 #include <readline/history.h>
