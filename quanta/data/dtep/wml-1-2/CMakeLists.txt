@@ -1,0 +1,19 @@
+#################################################
+#
+#  (C) 2010-2011 Serghei Amelian
+#  serghei (DOT) amelian (AT) gmail.com
+#
+#  Improvements and feedback are welcome
+#
+#  This file is released under GPL >= 2
+#
+#################################################
+
+install( FILES
+    a.tag access.tag anchor.tag br.tag card.tag
+    description.rc do.tag fieldset.tag go.tag
+    img.tag input.tag meta.tag noop.tag onevent.tag
+    optgroup.tag option.tag p.tag postfield.tag
+    pre.tag select.tag setvar.tag table.tag
+    template.tag timer.tag wml.tag common.tag
+  DESTINATION ${DATA_INSTALL_DIR}/quanta/dtep/wml-1-2 )
