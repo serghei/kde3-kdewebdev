@@ -26,7 +26,7 @@
 #include <myprocess.h>
 
 Konsole::Konsole(QWidget* a_parent, const char* a_name)
-  : KTextEdit(a_parent, a_name), KommanderWidget(this), mSeenEOL(false), mProcess(false)
+  : KTextEdit(a_parent, a_name), KommanderWidget(this), mSeenEOL(false), mProcess(nullptr)
 {
   QStringList states;
   states << "default";

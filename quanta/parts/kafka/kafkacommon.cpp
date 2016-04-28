@@ -962,7 +962,7 @@ Node* kafkaCommon::createMandatoryNodeSubtree(Node *node, Document *doc)
 
     nodeQTag = QuantaCommon::tagFromDTD(node);
     if(!nodeQTag)
-        return false;
+		return nullptr;
 
     searchForMandatoryNode = true;
     currentParent = node;
