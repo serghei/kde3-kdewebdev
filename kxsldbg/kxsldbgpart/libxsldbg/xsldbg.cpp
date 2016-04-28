@@ -82,6 +82,9 @@
 #include <libxml/xmlerror.h>
 #include <libxml/HTMLtree.h>
 #include <libxml/xmlIO.h>
+
+// disable deprecated docbook parser
+#undef LIBXML_DOCB_ENABLED
 #ifdef LIBXML_DOCB_ENABLED
 #include <libxml/DOCBparser.h>
 #endif
