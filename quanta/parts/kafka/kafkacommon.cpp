@@ -738,8 +738,11 @@ void kafkaCommon::fitsNodesPosition(Node* startNode, int colMovement, int lineMo
         else
             node->tag->setTagPosition(beginLine + lineMovement,
                                       beginCol, lastLine + lineMovement, lastCol);
+        /*
         for(j = 0; j < node->tag->attrCount(); ++j)
         {
+            FIXME gcc-4.6 is right, this is a non-sense
+            getAttribute() returns a value, not a reference
             if(node->tag->getAttribute(j).nameLine == SNbeginLine)
             {
                 node->tag->getAttribute(j).nameLine += lineMovement;
@@ -753,6 +756,7 @@ void kafkaCommon::fitsNodesPosition(Node* startNode, int colMovement, int lineMo
                 node->tag->getAttribute(j).valueLine += lineMovement;
             }
         }
+        */
         node = getNextNode(node, b);
     }
 }
