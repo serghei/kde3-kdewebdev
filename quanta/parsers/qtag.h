@@ -37,7 +37,7 @@ class QTag;
 class Node;
 
 //an attribute of a tag looks like:
-typedef struct Attribute{
+struct Attribute{
         QString name;
         QString type;         //"input", "check", "list"
         QStringList values;   //the possible values it can have
@@ -87,7 +87,7 @@ enum DTDFamily{Unknown = 0, Xml, Script};
 #define MAX_STRUCTGROUPSCOUNT 10
 
 //an internal representation of a DTD
-typedef struct DTDStruct
+struct DTDStruct
     {
      QString name;                    ///< DTD name
      QString nickName;                ///< DTD nickname

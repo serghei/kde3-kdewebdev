@@ -22,7 +22,6 @@
 #include "basetreeview.h"
 //#include "projecturl.h"
 
-class KIO::Job;
 class FileInfoDlg;
 class ProjectList;
 

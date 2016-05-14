@@ -40,7 +40,7 @@ public:
 
 
 
-typedef struct NestedTable{ Node *node; int row; int col; int bLine; int bCol; int eLine; int eCol; QString nestedData;};
+struct NestedTable{ Node *node; int row; int col; int bLine; int bCol; int eLine; int eCol; QString nestedData;};
 class Parser;
 
 

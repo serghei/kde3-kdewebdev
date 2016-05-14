@@ -104,7 +104,7 @@ public:
           bool smartTagInsertion; //enable/disable smartTagInsertion
         };
 
-typedef struct DirInfo{
+struct DirInfo {
       QString mimeType;
       QString preText;
       QString postText;

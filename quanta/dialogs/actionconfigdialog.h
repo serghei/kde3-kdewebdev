@@ -27,7 +27,7 @@ class KPopupMenu;
 class KShortcut;
 class KXMLGUIClient;
 
-typedef struct ToolbarEntry{
+struct ToolbarEntry{
   KXMLGUIClient *guiClient;
   QDomDocument *dom;
   QPopupMenu *menu;

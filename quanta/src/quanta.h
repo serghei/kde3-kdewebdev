@@ -95,8 +95,6 @@ class DebuggerManager;
 class QuantaInit;
 class KToolBarPopupAction;
 class KTempFile;
-class KParts::Part;
-class KParts::PartManager;
 namespace KTextEditor
 {
   class Mark;
