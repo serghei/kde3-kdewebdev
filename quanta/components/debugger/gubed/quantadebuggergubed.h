@@ -116,7 +116,7 @@ class QuantaDebuggerGubed : public DebuggerClient
 
 //     bool sendCommand(const QString&, const QString&);
     bool sendCommand(const QString& command, StringMap args);
-    bool sendCommand(const QString& command, char * firstarg, ...);
+    bool sendCommand(const QString& command, const char * firstarg, ...);
 
     void processCommand(const QString&);
     void sendWatches();

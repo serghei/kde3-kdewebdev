@@ -609,10 +609,10 @@ bool QuantaDebuggerGubed::sendCommand(const QString& command, StringMap args)
 }
 
 // Send a command to gubed
-bool QuantaDebuggerGubed::sendCommand(const QString& command, char * firstarg, ...)
+bool QuantaDebuggerGubed::sendCommand(const QString& command, const char * firstarg, ...)
 {
   StringMap ca;
-  char *next;
+  const char *next;
 
   va_list l_Arg;
   va_start(l_Arg, firstarg);
