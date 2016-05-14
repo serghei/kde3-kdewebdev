@@ -21,7 +21,7 @@ class KAboutData;
 /**
 	@author Andras Mantia <amantia@kdewebdev.org>
 */
-class AboutDialog : public QLabel, public KommanderWidget
+class KDE_EXPORT AboutDialog : public QLabel, public KommanderWidget
 {
   Q_OBJECT
   Q_PROPERTY(bool KommanderWidget READ isKommanderWidget)

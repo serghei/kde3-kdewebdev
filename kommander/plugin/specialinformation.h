@@ -17,13 +17,15 @@
 #ifndef _HAVE_SPECIALINFORMATION_H_
 #define _HAVE_SPECIALINFORMATION_H_
 
+#include <kdemacros.h>
+
 /* QT INCLUDES */
 #include <qstring.h>
 #include <qstringlist.h>
 #include <qmap.h>
 #include <qpair.h>
 
-class SpecialFunction
+class KDE_EXPORT SpecialFunction
 {
 public:
  
@@ -72,7 +74,7 @@ protected:
 
 
 
-class SpecialInformation
+class KDE_EXPORT SpecialInformation
 {
 public:
   SpecialInformation()  {m_defaultGroup = -1;}

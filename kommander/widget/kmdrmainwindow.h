@@ -17,7 +17,7 @@
 /**
 	@author Andras Mantia <amantia@kdewebdev.org>
 */
-class KmdrMainWindow : public KMainWindow
+class KDE_EXPORT KmdrMainWindow : public KMainWindow
 {
 Q_OBJECT
 public:

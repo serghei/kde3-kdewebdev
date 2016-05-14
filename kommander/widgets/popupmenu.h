@@ -22,7 +22,7 @@ class KPopupMenu;
 /**
 	@author Andras Mantia <amantia@kdewebdev.org>
 */
-class PopupMenu : public QLabel, public KommanderWidget
+class KDE_EXPORT PopupMenu : public QLabel, public KommanderWidget
 {
   Q_OBJECT
   Q_PROPERTY(QString populationText READ populationText WRITE setPopulationText DESIGNABLE false)

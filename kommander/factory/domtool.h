@@ -23,11 +23,12 @@
 
 #include <qvariant.h>
 #include <qnamespace.h>
+#include <kdemacros.h>
 
 class QDomElement;
 class QDomDocument;
 
-class DomTool : public Qt
+class KDE_EXPORT DomTool : public Qt
 {
 public:
     static QVariant readProperty( const QDomElement& e, const QString& name, const QVariant& defValue );

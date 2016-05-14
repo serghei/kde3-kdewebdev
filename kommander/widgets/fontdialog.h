@@ -20,7 +20,7 @@
 /**
 	@author Andras Mantia <amantia@kdewebdev.org>
 */
-class FontDialog : public QLabel, public KommanderWidget
+class KDE_EXPORT FontDialog : public QLabel, public KommanderWidget
 {
   Q_OBJECT
   Q_PROPERTY(QString populationText READ populationText WRITE setPopulationText DESIGNABLE false)
