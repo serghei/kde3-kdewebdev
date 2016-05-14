@@ -667,8 +667,8 @@ xsldbgMain(int argc, char **argv)
 		optionsSetIntOption(OPTIONS_REPEAT, 100);
 	}
 
-	QCStringList xslParams(args->getOptionList("param"));
-	QCStringList::iterator it;
+	KStringList xslParams(args->getOptionList("param"));
+    KStringList::Iterator it;
 	QCString param, paramName, paramValue;
 	int separatorIdx;
 	bool paramOK;

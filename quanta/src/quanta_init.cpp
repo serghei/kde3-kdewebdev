@@ -1618,9 +1618,9 @@ void QuantaInit::readAbbreviations()
 
 int QuantaInit::runningQuantas()
 {
-  QCStringList list = kapp->dcopClient()->registeredApplications();
+  KStringList list = kapp->dcopClient()->registeredApplications();
   int i = 0;
-  for (QCStringList::iterator it = list.begin(); it != list.end(); ++it)
+  for (KStringList::Iterator it = list.begin(); it != list.end(); ++it)
   {
     if (QString(*it).startsWith("quanta", false))
       ++i;

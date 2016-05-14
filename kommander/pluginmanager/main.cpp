@@ -74,13 +74,13 @@ int main(int argc, char *argv[])
     if (args->isSet("check"))
       P.verify();
     
-    QCStringList items = args->getOptionList("add");
-    for (QCStringList::ConstIterator it = items.begin(); it != items.end(); ++it)
+    KStringList items = args->getOptionList("add");
+    for (KStringList::ConstIterator it = items.begin(); it != items.end(); ++it)
       if (!P.add(*it))
         cerr << i18n("Error adding plugin '%1'").arg(*it).local8Bit();
     
     items = args->getOptionList("remove");
-    for (QCStringList::ConstIterator it = items.begin(); it != items.end(); ++it)
+    for (KStringList::ConstIterator it = items.begin(); it != items.end(); ++it)
       if (!P.remove(*it))
         cerr << i18n("Error removing plugin '%1'").arg(*it).local8Bit();
     

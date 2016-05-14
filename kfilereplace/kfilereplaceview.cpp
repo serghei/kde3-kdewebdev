@@ -481,11 +481,11 @@ void KFileReplaceView::initGUI()
   m_stackStrings->addWidget(m_lvStrings_2);
 
   DCOPClient *client = kapp->dcopClient();
-  QCStringList appList = client->registeredApplications();
+  KStringList appList = client->registeredApplications();
   bool quantaFound = false;
 
 
-  for(QCStringList::Iterator it = appList.begin(); it != appList.end(); ++it)
+  for(KStringList::Iterator it = appList.begin(); it != appList.end(); ++it)
     {
       if((*it).left(6) == "quanta")
         {
