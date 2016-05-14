@@ -22,7 +22,6 @@
 #include <dcopclient.h>
 
 #include "kimeshell.h"
-#include <config.h>
 
 static const char *description =
   I18N_NOOP("An HTML imagemap editor");
