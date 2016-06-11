@@ -381,7 +381,7 @@ void MainWindow::setupToolActions()
     if (!QFile::exists(*it))
       continue;
     QDir dir(*it);
-    const QFileInfoList* fileList = dir.entryInfoList(QDir::DefaultFilter, QDir::DirsFirst | QDir::Name);
+    const QFileInfoList_qt3 *fileList = dir.entryInfoList_qt3(QDir::DefaultFilter, QDir::DirsFirst | QDir::Name);
     if (fileList)
       for (QFileInfoListIterator fit(*fileList); fit.current(); ++fit)
       {
