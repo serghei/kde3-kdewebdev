@@ -468,7 +468,7 @@ extern "C" {
 #ifdef USE_GNOME_DOCS
 
 /**
- * breakPointItemFree:
+ * reakPointItemFree:
  * @payload: valid breakPointPtr
  * @name: not used
  *
@@ -486,7 +486,7 @@ extern "C" {
  */
 #endif
 #endif
-    void breakPointItemFree(void *payload, xmlChar * name);
+    void breakPointItemFree(void *payload, const xmlChar * name);
 
 
 

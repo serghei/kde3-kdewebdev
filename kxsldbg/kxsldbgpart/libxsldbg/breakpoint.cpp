@@ -283,7 +283,7 @@ breakPointItemNew(void)
  * Free memory associated with this break point
  */
 void
-breakPointItemFree(void *payload, xmlChar * name)
+breakPointItemFree(void *payload, const xmlChar * name)
 {
     Q_UNUSED(name);
     if (payload) {
